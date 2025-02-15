@@ -17,6 +17,6 @@
 	"threads": 4,
 	"cpu-priority": 1,
 	"retry-pause": 5,
-	"api-allow": "192.168.0.100/180",
-	"api-bind": "0.0.0.0:4068"
-}
+	"api-allow": "192.168.0.106/32" //if only accessing from that machine
+	"api-bind": "192.168.0.106:4068"
+	}

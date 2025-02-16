@@ -1,22 +1,17 @@
 {
 	"pools":[
 	{
-		"name": "ca.vipor.net",
-        	"url": "stratum+ssl://ca.vipor.net:5177",
-		"timeout": 150
-	},
-	{
-		"name": "ca.vipor.net",
-        	"url": "stratum+tcp://ca.vipor.net:5077",
-		"timeout": 150
+		"name": "pool1",
+        	"url": "stratum+tcp://pool.verus.io:9998",
+		"timeout": 30
 	},
 	],
 	"user": "R9sRtF6mzBjCgZ85MiLqaX6MikrTyLRsXK",
-	"pass": "d=10000",
+	"pass": "",
 	"algo": "verus",
-	"threads": 4,
+	"threads": 8,
 	"cpu-priority": 1,
 	"retry-pause": 5,
-	"api-allow": "192.168.0.106/32" //if only accessing from that machine
-	"api-bind": "192.168.0.106:4068"
+        "api-allow": "192.168.0.0/24",
+        "api-bind": "192.168.0.106:4068"
 	}

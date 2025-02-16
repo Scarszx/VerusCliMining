@@ -1,17 +1,17 @@
 {
 	"pools":[
 	{
-		"name": "pool1",
-        	"url": "stratum+tcp://zeusminingpool.com:3092",
-		"timeout": 30
+"name": "pool1",
+"url": "stratum+tcp://na.luckpool.net:3956",
+"timeout": 30
 	}
 	],
-	"user": "R9sRtF6mzBjCgZ85MiLqaX6MikrTyLRsXK",
-	"pass": "",
-	"algo": "verus",
-	"threads": 8,
-	"cpu-priority": 1,
-	"retry-pause": 5,
-        "api-allow": "192.168.0.0/24",
-        "api-bind": "192.168.0.106:4068"
+"user": "R9sRtF6mzBjCgZ85MiLqaX6MikrTyLRsXK",
+"pass": "",
+"algo": "verus",
+"threads": 8,
+"cpu-priority": 1,
+"retry-pause": 5,
+"api-allow": "192.168.0.0/24",
+"api-bind": "0.0.0.0:4068"
 	}
